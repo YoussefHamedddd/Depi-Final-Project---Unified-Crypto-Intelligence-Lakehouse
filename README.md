@@ -86,11 +86,13 @@ The two facts share `dim_date`, `dim_coin`, `dim_sentiment`, `dim_ma_signal`, an
 
 The report has four pages navigable from the left sidebar.
 
+
 **Market Overview**
 
 ![Market Overview](https://github.com/YoussefHamedddd/Depi-Final-Project---Unified-Crypto-Intelligence-Lakehouse/blob/main/docs/Power%20Bi%20Dashboard%20Pages/1-Market%20Overview.jpg?raw=true)
 
 Top-level summary of the dataset: 23 coins, 112 trillion in total trading volume, average market cap of $15.43B, and a highest recorded price of $64.86K. The bar chart shows market cap concentration — Tether dominates at $121B — and the line chart shows the average close price trend from 2013 through 2021, capturing both the 2018 peak and the 2021 bull run.
+
 
 **Technical Analysis**
 
@@ -98,11 +100,13 @@ Top-level summary of the dataset: 23 coins, 112 trillion in total trading volume
 
 Price mechanics for each coin filtered by month. The main chart overlays Close Price against MA7, MA14, and MA30 moving averages across the full date range. Below it, a 7-day volatility chart shows how risk regime varied over time — the 2021 period shows dramatically higher volatility than any prior cycle. The MA7 Signal Distribution bar chart on the right shows that prices spent nearly equal time above and below the 7-day moving average (18.5K vs 18.2K records), with very few days precisely at the average.
 
+
 **Sentiment and Market Signals**
 
 ![Sentiment and Market Signals](https://github.com/YoussefHamedddd/Depi-Final-Project---Unified-Crypto-Intelligence-Lakehouse/blob/main/docs/Power%20Bi%20Dashboard%20Pages/3-Sentiment%20&%20Market%20Signals.jpg?raw=true)
 
 The sentiment page shows the output of the NLP pipeline running on Source 2. Average sentiment score across all articles is 0.09 (slightly positive overall). The pie chart breaks the distribution into 44% neutral, 38% positive, and 18% negative. The Net Exchange Flow Trend line chart at the bottom runs from October through November and shows net inflow/outflow movement around the zero axis, useful for identifying accumulation versus distribution phases.
+
 
 **ML Price Predictions**
 
@@ -128,5 +132,3 @@ Model performance summary: 96.1% accuracy, 3.9% MAPE, and a mean absolute error 
 | Visualization | Power BI (Live Connection to Gold layer) |
 
 ---
-
-## Repository Structure
